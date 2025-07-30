@@ -63,6 +63,8 @@ Treinamento de um modelo de classificação com Machine Learning que estima a pr
 10. **Deploy e Integração**  
    - API criada com Flask, disponível publicamente:  
      https://healthinsurance-api-render.onrender.com/predict
+   - Repositório da API:
+     https://github.com/fr22/healthinsurance-api-render
    - Deploy feito na nuvem usando **Render**
    - A API recebe dados no formato JSON e retorna a probabilidade de conversão para seguro automotivo
    - Integração com **Google Sheets** via Google Apps Script. Código disponível na pasta sheets_integration
@@ -77,8 +79,8 @@ Treinamento de um modelo de classificação com Machine Learning que estima a pr
 
 Você pode ver a integração da API com o Google Sheets em funcionamento no vídeo abaixo:
 
-[Assista à demonstração no YouTube](https://youtu.be/NUslL57niuw)
+https://youtu.be/NUslL57niuw
 
 A planilha utilizada no vídeo está disponível publicamente para testes:
 
-[Planilha de Demonstração no Google Sheets](https://docs.google.com/spreadsheets/d/1buSyPWCMbgm0erZMuNA6ixQk8B918C2JK68XUOfkqxA/edit?usp=sharing)
+https://docs.google.com/spreadsheets/d/1buSyPWCMbgm0erZMuNA6ixQk8B918C2JK68XUOfkqxA/edit?usp=sharing
