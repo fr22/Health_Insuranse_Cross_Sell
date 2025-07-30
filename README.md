@@ -1,4 +1,3 @@
-
 # 1. Health Insurance Cross-Sell Prediction
 
 ## 2. Descrição
@@ -63,13 +62,23 @@ Treinamento de um modelo de classificação com Machine Learning que estima a pr
 
 10. **Deploy e Integração**  
    - API criada com Flask, disponível publicamente:  
-     🔗 [`https://healthinsurance-api-render.onrender.com/predict`](https://healthinsurance-api-render.onrender.com/predict)
+     https://healthinsurance-api-render.onrender.com/predict
    - Deploy feito na nuvem usando **Render**
    - A API recebe dados no formato JSON e retorna a probabilidade de conversão para seguro automotivo
-   - Integração com **Google Sheets** via Google Apps Script
+   - Integração com **Google Sheets** via Google Apps Script. Código disponível na pasta sheets_integration
 
 ## 7. Tecnologias Utilizadas
 
 - **Linguagem**: Python 3
 - **Bibliotecas**: Pandas, Scikit-learn, XGBoost, Boruta, Flask
 - **Infraestrutura**: Render, Google Sheets + Apps Script
+
+## 8. Demonstração: Integração com Google Sheets
+
+Você pode ver a integração da API com o Google Sheets em funcionamento no vídeo abaixo:
+
+[Assista à demonstração no YouTube](https://youtu.be/NUslL57niuw)
+
+A planilha utilizada no vídeo está disponível publicamente para testes:
+
+[Planilha de Demonstração no Google Sheets](https://docs.google.com/spreadsheets/d/1buSyPWCMbgm0erZMuNA6ixQk8B918C2JK68XUOfkqxA/edit?usp=sharing)
